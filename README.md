@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="kaurileaf.png" alt="Kauri leaf and cone" width="120">
+</p>
+
 # Kauri
 
 A single-header memory safety library for C99. 530 lines of arena allocator, string builder, and debug instrumentation, because I got tired of writing the same bump allocator in every project and getting it slightly wrong each time.
