@@ -104,7 +104,7 @@ Zero overhead in release builds. All of it is `#if KAURI_DEBUG`.
 
 I like Rust. It's a genuinely good language with a genuinely good type system and if you're starting a new project from scratch with a team that knows it, you should probably use it.
 
-But I write JPL-style C99. Pre-allocated buffers, bounded loops, no recursion, fixed pools. The allocation patterns are simple: bump forward, reset when done. I don't need the compiler to track every lifetime through every borrow across every async boundary. I need a bump allocator that doesn't have bugs in it.
+But I write C99 (Nasty habit I picked up after reading old NASA code all day). Pre-allocated buffers, bounded loops, no recursion, fixed pools. The allocation patterns are simple: bump forward, reset when done. I don't need the compiler to track every lifetime through every borrow across every async boundary. I need a bump allocator that doesn't have bugs in it.
 
 Every time I started a new C project I'd write the same arena, the same bounds-check macro, the same string builder, and introduce the same subtle off-by-one in the alignment code. Kauri is that code, written once, tested properly, with debug instrumentation that catches the mistakes I still make because I'm human and C doesn't care.
 
