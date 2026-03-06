@@ -118,4 +118,6 @@ MIT. Do what you want with it. If it saves you a `use-after-free`, I'll consider
 
 <p align="center">
   <img src="kauri.png" alt="Rangitoto from across the harbour" width="700">
+  <br>
+  <em>Rangitoto drawing by Lola Hambly</em>
 </p>
